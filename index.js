@@ -298,6 +298,13 @@ var vCard = (function () {
          * vCard version
          * @type {String}
          */
+        
+         /**
+         * Other mailing address
+         * @type {object}
+         */
+        otherAddress: getMailingAddress(),
+        
         version: '3.0',
 
         /**
